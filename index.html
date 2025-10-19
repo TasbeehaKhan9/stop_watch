@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stop Watch</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+</head>
+<body>
+    <h1 class="head"><span>⏱️</span> My Stopwatch</h1>
+
+   <h1 class="head-1">00:00.00</h1>
+
+  <div class="lap-table-container">
+    <table id="lap-table" style="display: none;">
+        <thead>
+            <tr>
+                <th>Lap</th>
+                <th>Lap Time</th>
+                <th>Overall time</th>
+            </tr>
+        </thead>
+        <tbody id="LapList"></tbody>
+    </table>
+</div>
+  <div class="button-divs">
+        <button class="button lap-button " disabled>lap</button>
+        <button class=" button Start-button">Start</button>
+    </div>
+
+ 
+</body>
+<script src="script.js"></script>
+</html>

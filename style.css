@@ -1,0 +1,96 @@
+body {
+  height: 100vh;
+  margin: 0;
+  background: linear-gradient(to bottom, #fff79a, #a0e3ff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.head {
+  font-size: 2.8rem;
+  color: #915050;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.head-1 {
+  font-size: 80px;
+  color: #000000;
+  text-align: center;
+}
+
+.button-divs {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.button {
+  width: 100px;
+  padding: 10px 0;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  color: #fff;
+}
+
+.lap-button {
+  background-color: #d3d3d3;
+}
+
+.lap-button[disabled] {
+  opacity: 0.6;
+  pointer-events: auto;
+  cursor: not-allowed;
+}
+.Start-button {
+  background-color: #5464f1;
+}
+
+/* Table Styling */
+
+
+.lap-table-container {
+  max-height: 500px; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+  margin: 0 auto;
+  width: 70%; 
+  border-radius: 8px;
+}
+
+
+#lap-table {
+  margin: 30px auto;
+  border-collapse: collapse;
+  width: 60%;
+  text-align: center;
+  font-size: 1rem;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+}
+
+
+#lap-table th, #lap-table td {
+  border-bottom: 1px solid #999;
+  padding: 10px;
+}
+
+#lap-table th {
+  background-color: #5464f1;
+  color: #fff;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
